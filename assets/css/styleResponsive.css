@@ -1,0 +1,88 @@
+/* Ordenador: a partir de 1200px */
+@media (min-width: 1201px) {
+    header>a{
+        display: inline-block;
+        margin-right: 50px;
+    }
+    header>h1{
+        display: inline-block;
+    }
+    
+    main {
+        display: flex;
+    }
+
+    section {
+        flex-direction: column;
+        width: 85%;
+        margin-left: 0;
+    }
+
+    aside {
+        flex-direction: column;
+        margin-right: 0;
+        width: 15%;
+    }
+}
+
+/* Tablet: a partir de 700px a 1200px */
+@media (min-width: 701px) and (max-width: 1200px) {
+    h1 {
+        font-size: 52px;
+    }
+
+    main {
+        display: block;
+    }
+
+    section {
+        width: auto;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    aside>ul>li {
+        display: inline-block;
+        margin-left: 2%;
+    }
+
+    footer>a>img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Móvil: hasta 700px */
+@media (max-width: 700px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    main {
+        display: block;
+    }
+
+    section {
+        width: auto;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    aside>ul>li {
+        display: inline-block;
+        margin-left: 2%;
+    }
+
+    footer>a>img{
+        width: 40px;
+        height: 40px;
+    }
+}
