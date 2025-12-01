@@ -328,6 +328,12 @@ img{
     transition: width 2s ease-out;
 }
 
-img:hover{
+.imgCentrada:hover{
     width: 80%;
+}
+
+img[alt="Logo"]:hover{
+    transition: 1s linear;
+    transform-origin: 50% 80%;
+    transform: rotate(360deg);
 }
