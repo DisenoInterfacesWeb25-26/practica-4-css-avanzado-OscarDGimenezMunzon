@@ -307,3 +307,19 @@ caption {
     margin: 20px;
     text-align: center;
 }
+
+/*Otros*/
+
+.imgCentrada{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:not([alt]){
+    border: 3px solid red;
+}
+
+a[href$=".pdf"]::after{
+    content: url("https://www.shareicon.net/data/16x16/2016/08/13/808584_document_512x512.png");
+}
