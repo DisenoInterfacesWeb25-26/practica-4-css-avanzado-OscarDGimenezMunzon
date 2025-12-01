@@ -323,3 +323,11 @@ img:not([alt]){
 a[href$=".pdf"]::after{
     content: url("https://www.shareicon.net/data/16x16/2016/08/13/808584_document_512x512.png");
 }
+
+img{
+    transition: width 2s ease-out;
+}
+
+img:hover{
+    width: 80%;
+}
