@@ -324,7 +324,7 @@ a[href$=".pdf"]::after{
     content: url("https://www.shareicon.net/data/16x16/2016/08/13/808584_document_512x512.png");
 }
 
-img{
+.imgCentrada{
     transition: width 2s ease-out;
 }
 
