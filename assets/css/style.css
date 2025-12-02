@@ -337,3 +337,18 @@ img[alt="Logo"]:hover{
     transform-origin: 50% 80%;
     transform: rotate(360deg);
 }
+
+#cajaFlex>a>img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #3A4D28;
+}
+
+#cajaFlex{
+    display: flex;
+    height: 500px;
+    background-color: #c4d7b2;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
