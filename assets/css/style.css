@@ -82,11 +82,11 @@ nav ul li {
 }
 
 nav ul li a:link {
-    color: #c4d7b2;
+    color: #F2F6EE;
 }
 
 nav ul li a:visited {
-    color: #F2F6EE;
+    color: #c4d7b2;
 }
 
 nav ul li a:hover {
@@ -161,11 +161,11 @@ aside ul li {
 }
 
 aside ul li a:link {
-    color: #c4d7b2;
+    color: #F2F6EE;
 }
 
 aside ul li a:visited {
-    color: #F2F6EE;
+    color: #c4d7b2;
 }
 
 aside ul li a:hover {
@@ -193,11 +193,11 @@ footer * {
 }
 
 footer a:link {
-    color: #c4d7b2;
+    color: #F2F6EE;
 }
 
 footer a:visited {
-    color: #F2F6EE;
+    color: #c4d7b2;
 }
 
 footer a:hover {
