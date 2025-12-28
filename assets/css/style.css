@@ -60,7 +60,7 @@ header {
 /**** Menú horizontal ****/
 
 nav {
-    background-color: #678a47;
+    background-color: #c4d7b2;
     text-align: center;
     position: fixed;
     top: 0px;
@@ -82,11 +82,11 @@ nav ul li {
 }
 
 nav ul li a:link {
-    color: #F2F6EE;
+    color: #0D1109;
 }
 
 nav ul li a:visited {
-    color: #c4d7b2;
+    color: #F2F6EE;
 }
 
 nav ul li a:hover {
@@ -112,6 +112,7 @@ section {
     box-sizing: border-box;
     width: 90%;
     background-color: #FAFBF8;
+    text-align: justify;
     padding: 20px;
 }
 
@@ -120,7 +121,7 @@ section article {
 }
 
 section article p a:link {
-    color: #3A4D28;
+    color: #0D1109;
 }
 
 section article p a:visited {
@@ -143,7 +144,7 @@ aside {
     float: right;
     width: 10%;
     min-width: 150px;
-    background-color: #678a47;
+    background-color: #c4d7b2;
     text-align: center;
     padding: 5% 0;
 }
@@ -161,11 +162,11 @@ aside ul li {
 }
 
 aside ul li a:link {
-    color: #F2F6EE;
+    color: #0D1109;
 }
 
 aside ul li a:visited {
-    color: #c4d7b2;
+    color: #F2F6EE;
 }
 
 aside ul li a:hover {
@@ -182,7 +183,7 @@ aside ul li a:active {
 
 footer {
     clear: both;
-    background-color: #678a47;
+    background-color: #c4d7b2;
     text-align: center;
     font-family: serif;
     padding: 20px;
@@ -193,11 +194,11 @@ footer * {
 }
 
 footer a:link {
-    color: #F2F6EE;
+    color: #0D1109;
 }
 
 footer a:visited {
-    color: #c4d7b2;
+    color: #F2F6EE;
 }
 
 footer a:hover {
